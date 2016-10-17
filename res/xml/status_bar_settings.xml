@@ -48,5 +48,11 @@
         android:key="zephyr_clock_settings"
         android:title="@string/clock_settings_title"
         android:summary="@string/clock_settings_summary" />
+
+    <PreferenceScreen
+        android:fragment="com.android.settings.zephyr.CarrierLabelSettings"
+        android:key="zephyr_carrier_label_settings"
+        android:title="@string/carrier_label_settings_title"
+        android:summary="@string/carrier_label_settings_summary" />
 </PreferenceScreen>
 
