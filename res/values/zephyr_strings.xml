@@ -40,6 +40,7 @@
    <string name="wakeup_when_plugged_unplugged_summary">Acordar o dispositivo quando o carregador for  comectado / desconectado.</string>
 
     <!-- O vortex -->
+    <string name="build_tweaks_summary_title">Início dos recursos</string>
     <string name="zephyr_settings_title">O vortex</string>
     <string name="keywords_zephyr">Zephyr</string>
     <!-- Configurações do bloqueio de tela -->
@@ -207,10 +208,10 @@
     <string name="statusbar_charging_image_summary">Indicador do raio durante o carregamento. Oculta porcentagem de sobreposição</string>
     <string name="statusbar_battery_charging_color_title">Cor</string>
     <string name="statusbar_battery_charging_color_enable_title">Cor durante o carregamento</string>
-    <string name="statusbar_battery_charging_color_enable_summary"></string>
+    <string name="statusbar_battery_charging_color_enable_summary"/>
     <string name="battery_enable_title">Mostrar bateria</string>
 
-    <!-- Opção para mostrar A barra de brilho nas configurações rápidas-->
+    <!-- Opção para mostrar a barra de brilho nas configurações rápidas-->
     <string name="show_brightness">Mostrar controle deslizante de brilho</string>
 
     <!-- Notifcações de LED -->
@@ -296,6 +297,22 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Padrão</string>
+    <string name="reset_color_title">Reset</string>
+    <string name="reset_android_title">Android default</string>
+    <string name="reset_zephyr_title">Zephyr default</string>
+    <string name="color_picker_fragment_title">Color Picker</string>
+    <string name="apply_color_title">Apply color</string>
+    <string name="edit_hex_title">HEX value</string>
+    <string name="palette_zephyr_title">Zephyr</string>
+    <string name="palette_material_title">Material</string>
+    <string name="palette_rgb_title">RGB</string>
+    <string name="reset_theme_default_title">Theme default</string>
+    <string name="favorites_title">Favorites</string>
+    <string name="hide_favorites_title">Hide favorites</string>
+    <string name="show_favorites_title">Show favorites</string>
+    <string name="hide_help_title">Hide help</string>
+    <string name="show_help_title">Show help</string>
+    <string name="empty_title">Empty</string>
 
     <!-- Barra de navegação -->
     <string name="navbar_interface_title">Interface</string>
@@ -451,7 +468,7 @@
     <string name="smartbar_config_restore_success_toast">Perfil da barra inteligente restaurado com sucesso</string>
     <string name="smartbar_config_backup_error_toast">Erro ao salvar perfil da barra inteligente</string>
     <string name="smartbar_config_restore_error_toast">Erro ao restaurar pefil da barra inteligente</string>
-    <string name="navbar_buttons_alpha_title">Transparência do botão</string>>
+    <string name="navbar_buttons_alpha_title">Transparência do botão</string>&gt;
     <string name="navigation_category">DUI</string>
 
     <!-- Nome do mantendor do dispositivo -->
@@ -491,7 +508,7 @@
     <string name="cancel">Cancelar</string>
     <string name="save">Salvar</string>
 
-    <!-- Etiqueta e posição d nome da operadora personalizado -->
+    <!-- Etiqueta e posição do nome da operadora personalizado -->
     <string name="carrier_label_settings_title">Etiqueta da operadora</string>
     <string name="carrier_label_settings_summary">Personalize o rótulo da operadora</string>
     <string name="custom_carrier_label_title">Etiqueta da operadora personalizada</string>
@@ -503,4 +520,163 @@
     <string name="show_carrier_statusbar">Apenas na barra de satus</string>
     <string name="show_carrier_enabled">Tela de bloqueio &amp; barra de status</string>
      <string name="status_bar_carrier_color">Cor da etiqueta da operadora</string>
+     
+     <!-- Relógio na barra de status -->
+    <string name="ticker_screen_title">Relógio</string>
+    <string name="ticker_title">Relógio na barra de status</string>
+    <string name="ticker_screen_summary">Personalizar o estilo do relógio</string>
+    <string name="ticker_summary">Ativar a barra de status antiga do rélogio</string>
+    <string name="ticker_font_style_title">Estilo da fonte</string>
+    <string name="ticker_font_size_title">Tamanho da fonte</string>
+    <string name="text_title">Texo</string>
+    <string name="icon_title">Icone</string>
+    <string name="color_title">Cor</string>
+    <string name="colors_title">Cores</string>
+    
+    <!-- Tela de ajuda do seletor de cores-->
+    <string name="color_picker_help_screen_title">Ajuda do seletor de cores</string>
+    <string name="color_picker_help_ab_title">Barra de ação:</string>
+    <string name="color_picker_help_ab_back_title">Botão "voltar:</string>
+    <string name="color_picker_help_ab_back_summary">Feche o seletor de cores sem aplicar a nova cor, (cancelar).\nisso tem o mesmo efeito que clicar no botão Voltar na barra de navegação.</string>
+    <string name="color_picker_help_ab_name_title">Titulo:</string>
+    <string name="color_picker_help_ab_name_summary">Mostra apenas o título, sem funções adicionais</string>
+    <string name="color_picker_help_ab_color_apply_title">Visualização de cor e aplicar cor:</string>
+    <string name="color_picker_help_ab_color_apply_summary">A pré-visualização da cor é sempre visível.\nSe a nova cor não for igual à cor antiga, a visualização da cor será expandida, para permitir aplicar a nova cor.</string>
+    <string name="color_picker_help_ab_hex_title">Valor hexadecimal:</string>
+    <string name="color_picker_help_ab_hex_summary"> Mostra o campo de entrada hexadecimal.\nOs valores hexadecimais devem estar no formato de cor hexadecimal:\n\'#aarrggbb\', (\'alpha\' (transparency), \'red\', \'green\' and \'blue\').\nO botão Voltar fecha o campo de entrada hexadecimal sem definir o valor hexadecimal.\nO botão aplicar define o valor hexadecimal como nova cor sem aplicar a nova cor.</string>
+    <string name="color_picker_help_ab_menu_title">Botão Menu:</string>
+    <string name="color_picker_help_ab_menu_reset_title">Redefinir:</string>
+    <string name="color_picker_help_ab_menu_reset_summary">Redefine a cor nova para o padrão Android, Zephyr ou cor relacionada ao tema sem aplicar a nova cor.</string>
+    <string name="color_picker_help_ab_menu_favorites_title">Mostrar / ocultar favoritos:</string>
+    <string name="color_picker_help_ab_menu_favorites_summary">Mostra / esconde os favoritos.\nOcultar os favoritos não irá redefinir as cores favoritas.</string>
+    <string name="color_picker_help_ab_menu_help_title">Mostrar / ocultar ajuda:</string>
+    <string name="color_picker_help_ab_menu_help_summary">Mostra / oculta esta tela de ajuda.</string>
+    <string name="color_picker_help_colors_title">Cores:</string>
+    <string name="color_picker_help_picker_view_title">Painel de cores:</string>
+    <string name="color_picker_help_picker_view_summary">Escolha uma cor para definir uma nova cor sem aplicar a nova cor.\nA faixa de cores pode ser alterada usando o controle deslizante do lado direito</string>
+    <string name="color_picker_help_color_buttons_title">Botões de cores:</string>
+    <string name="color_picker_help_favorites_title">Favoritos:</string>
+    <string name="color_picker_help_favorites_summary">Os favoritos estão vazios por padrão.\nA nova cor pode ser salva como um favorito a qualquer momento através de um clique longo, (nenhum favorito vazio será substituído pela nova cor).\nUm clique define a cor favorita como nova cor, sem aplicar a nova cor.</string>
+    <string name="color_picker_help_palette_title">Paleta:\n(Zephyr, Material e RGB)</string>
+    <string name="color_picker_help_palette_summary">Todas as cores da paleta têm um valor fixo.\nUm clique define a cor da paleta como nova cor, sem aplicar a nova cor.</string>
+    <string name="color_picker_help_do_not_show_title">Não mostrar novamente</string>
+    <string name="color_picker_help_button_ok_title">OK</string>
+    
+    <!-- Estilo da letra do relógio -->
+    <string name="ticker_font_title">Fonte do relógio da tela de bloqueio</string>
+    <string name="ticker_font_summary">Alterar a fonte padrão do widget de relógio da tela de bloqueio</string>
+    <string name="ticker_font_normal">Roboto</string>
+    <string name="ticker_font_bold">Roboto Negrito</string>
+    <string name="ticker_font_italic">Roboto Italico</string>
+    <string name="ticker_font_bold_italic">Roboto Negrito Italico</string>
+    <string name="ticker_font_light_normal">Roboto Leve (padrão)</string>
+    <string name="ticker_font_light_italic">Roboto Leve Italico</string>
+    <string name="ticker_font_thin_normal">Roboto Fino</string>
+    <string name="ticker_font_thin_italic">Roboto Fino Italico</string>
+    <string name="ticker_font_condensed_normal">Roboto Condensado</string>
+    <string name="ticker_font_condensed_bold">Roboto Condensado Negrito</string>
+    <string name="ticker_font_condensed_italic">Roboto Condensado Italico</string>
+    <string name="ticker_font_condensed_bold_italic">Roboto Condensado Negrito Italico</string>
+    <string name="ticker_font_medium_normal">Roboto Médio</string>
+    <string name="ticker_font_medium_italic">Roboto Médio Italico</string>
+    <string name="ticker_font_black_normal">Roboto Preto</string>
+    <string name="ticker_font_black_italic">Roboto Preto Italico</string>
+    <string name="ticker_font_condensed_light_normal">Roboto Condensado Leve</string>
+    <string name="ticker_font_condensed_light_italic">Roboto Condensado Leve Italico</string>
+    <string name="ticker_font_dancingscript">Roteiro de Dança</string>
+    <string name="ticker_font_dancingscript_bold">Roteiro de Dança Negrito</string>
+    <string name="ticker_font_comingsoon">Em breve</string>
+    <string name="ticker_font_notoserif">NotoSerif Normal</string>
+    <string name="ticker_font_notoserif_italic">NotoSerif Italico</string>
+    <string name="ticker_font_notoserif_bold">NotoSerif Negrito</string>
+    <string name="ticker_font_notoserif_bold_italic">NotoSerif Negrito Italioc</string>
+    
+    <!--Navegação por botão de hardware -->
+    <string name="hardware_keys_volume_keys_title">Botão de volume</string>
+    <string name="hardware_keys_home_key_title">Botão inicial</string>
+    <string name="hardware_keys_menu_key_title">Botão Menu</string>
+    <string name="hardware_keys_assist_key_title">Botão Pesquisar</string>
+    <string name="hardware_keys_appswitch_key_title">Botão de visão geral</string>
+    <string name="hardware_keys_back_key_title">Botão voltar</string>
+    <string name="hardware_keys_double_tap_summary">Definir ação de toque duplo</string>
+    <string name="hardware_keys_single_tap_summary">Definir uma única ação de toque</string>
+    <string name="hardware_keys_long_press_summary">Definir ação ao pressionar longamente</string>
+    <string name="hardware_keys_single_tap_title">Ação ao tocar uma vez</string>
+    <string name="hardware_keys_long_press_title">Ação ao pressionar longamnte</string>
+    <string name="hardware_keys_double_tap_title">Ação de toque duplo</string>
+    <string name="hardware_keys_category">Botões de navegação</string>
+    <string name="hardware_keys_disable_title">Desativar botões de navegação</string>
+    <string name="button_settings">Configurações dos botões</string>
+    
+    <!-- Personalização do menu de energia -->
+    <string name="power_menu_title">Menu de energia</string>
+    <string name="power_menu_title_summary">Exibir ou alterar as entradas do menu de energia</string>
+    <string name="power_menu_reboot_title">Reiniciar</string>
+    <string name="power_menu_screenshot_title">Captura de tela</string>
+    <string name="power_menu_screenrecord_title">Gravar tela</string>
+    <string name="power_menu_torch_title">Lanterna</string>
+    <string name="power_menu_airplane_title">Modo avião</string>
+    <string name="power_menu_users_title">Interruptor do usuário</string>
+    <string name="power_menu_search_title">Pesquisar</string>
+    <string name="power_menu_voice_title">Pesquisa por voz</string>
+    <string name="power_menu_settings_title">Atalho de configurações</string>
+    <string name="power_menu_lockdown_title">Bloquear dispositivo</string>
+    <string name="power_menu_bug_report_title">Relatório de erro</string>
+    <string name="power_menu_sound_title">Painel de som</string>
+    <string name="power_menu_bug_report_disabled">O relatório de erros está desativado nas configurações de desenvolvimento</string>  
+    
+    <!--Lanterna na tela de bloqueio -->
+    <string name="keyguard_torch_title">Lanterna na tela de bloqueio</string>
+    <string name="keyguard_torch_summary">Pressionar logamente o botão liga / desliga com a tela desligada</string>
+    
+     <!-- Desativar configurações rápidas na tela de bloqueio -->
+    <string name="block_on_secure_keyguard_title">Desativar configurações rápidas na tela de bloqueio</string>
+    <string name="block_on_secure_keyguard_summary">Desativa configurações rápidas na tela de bloqueio seguro</string>
+    
+    <!--Opção para mostrar a barra de brilho nas configurações rápidas -->
+    <string name="show_brightness">Mostrar controle deslizante de brilho</string>
+    
+    <!-- Configurações Heads up -->
+    <string name="headsup_settings_title">Notificações Heads up</string>
+    <string name="summary_heads_up_enabled">As notificações de alerta estão ativadas</string>
+    <string name="summary_heads_up_disabled">As notificações Heads up foram desativadas</string>
+    <string name="heads_up_disabled_notice">Para permitir que os aplicativos exibam notificações interativas em uma janela pop-up em sua tela, ative Heads up.</string>
+    
+    <!--Tempo limite de espera -->
+    <string name="heads_up_time_out_title">Tempo esgotado</string>
+    <string name="heads_up_time_out_summary">A notificação será exibida para <xliff:g id="number">%d</xliff:g> segundos</string>
+    <string name="heads_up_time_out_2sec">2 segundos</string>
+    <string name="heads_up_time_out_4sec">4 segundos</string>
+    <string name="heads_up_time_out_5sec">5 segundos</string>
+    <string name="heads_up_time_out_6sec">6 segundos</string>
+    <string name="heads_up_time_out_8sec">8 segundos</string>
+    <string name="heads_up_time_out_10sec">10 segundos</string>
+
+<!--Soneca Heads up -->
+    <string name="heads_up_snooze_title">Temporizador da soneca</string>
+    <string name="heads_up_snooze_summary_one_minute">Deslizando para cima as notificações espreitam a soneca para cima a partir desse aplicativo por 1 minuto</string>
+    <string name="heads_up_snooze_summary">Deslizar para cima as notificações no modo soneca espreitam para cima a partir desse aplicativo para <xliff:g id="number">%d</xliff:g> minutes</string>
+    <string name="heads_up_snooze_disabled_summary">O temporizador de soneca está desativado</string>
+    <string name="heads_up_snooze_1min">1 minuto</string>
+    <string name="heads_up_snooze_3min">3 minutos</string>
+    <string name="heads_up_snooze_5min">5 minutos</string>
+    <string name="heads_up_snooze_10min">10 minutos</string>
+    <string name="heads_up_snooze_15min">15 minutos</string>
+    <string name="heads_up_snooze_20min">20 minutos</string>
+    
+    <!-- Tipo de captura de tela opcional -->
+    <string name="screenshot_type_title">Tipo de captura de tela</string>
+    <string name="screenshot_type_fullscreen">Tirar captura de tela em tela cheia</string>
+    <string name="screenshot_type_partial">Selecionar a parte da tela que deseja capturar</string>
+    
+    <!-- Tempo limite de retroiluminação dos botões -->
+    <string name="backlight_timeout_title">Tempo limite de retroiluminação dos botões</string>
+    <string name="backlight_timeout_on">Ativado sempre</string>
+    <string name="backlight_timeout_default">5 seg (padrão)</string>
+    <string name="backlight_timeout_10s">10 seg</string>
+    <string name="backlight_timeout_15s">15 seg</string>
+    <string name="backlight_timeout_20s">20 seg</string>
+    <string name="backlight_timeout_30s">30 seg</string>
+    <!-- Ativar luz de fundo das teclas-->
+    <string name="button_brightness_title">Ativar retroiluminação</string>
 	</resources>
